@@ -1,15 +1,6 @@
 #include <stdio.h>
 
-/**
- * FizzBuzz program - prints numbers from 1 to 100 with replacements.
- *
- *This program prints numbers from 1 to 100, replacing multiples of 3 with "Fizz",
- *multiples of 5 with "Buzz",and multiples of both 3 and 5 with "FizzBuzz".
- *Numbers or words are separated by a space,and a newline is printed at the end.
- *
- * @return 0 on successful execution
- */
-int main(void)
+int main(void) : Entry point of program. Returns exit status.
 {
 int i;
 
